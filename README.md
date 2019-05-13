@@ -2,7 +2,7 @@
 ## SCUBA Dive Log/Planner
 
 This Dive Log App is used by a scuba diver to record the details of dives they have done.This
-Serves many purposes that are both safety focused and personal. This Dive Log App Is not only a log book replacement it also replaces the recreational dive plan tables! The dive log can be used by everyone on your dive trip using the same app. The Dive Log numbers and saves your dives just like a log book. It has a planner that tracks your nitrogen time for multiple dives. 
+Serves many purposes that are both safety focused and personal. This Dive Log App Is not only a log book replacement it also replaces the recreational dive plan tables! The dive log can be used by everyone on your dive trip using the same app. The Dive Log numbers and saves your dives just like a log book. It has a planner that tracks your nitrogen time for multiple dives. This is made for recreational divers only!
 
 ---
 ### This Dive Log Includes Fields 
@@ -15,7 +15,7 @@ Dive Number| Bottom Time|Hood|Boat|
 || Ending Pressure Group|Shorty|Waves|
 || Residual Nitrogen Time|Gloves|Current|
 || Actual Bottom Time|Boots|Surge|
-#### Images of The Dive Log
+#### Check out the Images of The Dive Log
 ![](images/login.png)
 ![](images/diveLog.png)
 ![](images/log.png)
@@ -25,7 +25,8 @@ I chose a Dive Log for my capstone project because I have always loved scuba Div
 I was certified in spring 2007. I loved diving from the time I took my first breath from the regulator.I started to use my paper log but soon discontinued because it was such a hassle. The book was never complete. It was always wet. I have always wondered why more people don’t use electronic log books.
 
 #### What I Want To Change
-This app was created using Java and JavaFx. It Runs from a local server at the moment. I started the project to run from a server so that I could save the logs to the server. About half way through coding this it was made clear to me that a log needs to be a stand alone so it is usable in the ocean or where there is no internet. So the only thing the server does is save the user names and passwords. The server saves these to a hashmap. For the reason that only one key or one password can be stored. So no duplicate passwords. The password has to match the name for login to be successful. To write this out should be fairly simple.
+This app was created using Java and JavaFx. It Runs from a local server at the moment. I started the project to run from a server so that I could save the logs to the server. About half way through coding this it was made clear to me that a log needs to be a stand alone so it is usable in the ocean or where there is no internet. So the only thing the server does is save the user names and passwords. The server saves these to a hashmap. For the reason that only one key or one password can be stored. So no duplicate passwords. The password has to match the name for login to be successful. To write this out should be fairly simple. If done again 
+I would use fxml and a scene builder. I think that would help keep the code more organized.  
 
 #### Instructions for using this App
 * The ServerDiveLog.java has a Main method in it and needs to be running before the DiveLog.java is started. If the server does not output (server started date & time ) the socket needs to be reset.
